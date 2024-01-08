@@ -83,6 +83,7 @@ header{
     width: 1320px;
     height: 600px;
     margin: auto;
+    margin-bottom: 120px;
 }
 
 .welcome-to-2024 h3{
@@ -114,27 +115,42 @@ header{
 
 .booking-time{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 1320px;
     height: 482px;
-    margin: auto;
-    position: relative;
+    margin-left: 80px;
+    
 }
 
-.booking-time h2{
-    color: #ff0000;
+.booking-time h3{
     text-align: center;
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
-    line-height: 56px
-    /* text-transform: capitalize; */
+    line-height: 56px;
+    margin: 0;
+
 }
 
+.booking-time h3 span{
+    color: #ff0000;
+}
+
+.booking-time p{
+    text-align: center;
+}
 .booking-time button{
+    text-align: center;
     border-radius: 8px;
     background: #f00000;
     padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
+}
+.booking-time p .join-button{
+    color: #FFFFFF;
     text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
 }
