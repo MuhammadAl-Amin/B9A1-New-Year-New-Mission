@@ -141,16 +141,109 @@ header{
 .booking-time p{
     text-align: center;
 }
+
+
 .booking-time button{
     text-align: center;
     border-radius: 8px;
     background: #f00000;
     padding: 16px 32px;
 }
+
+
 .booking-time p .join-button{
     color: #FFFFFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
+}
+
+
+.up-coming-offer{
+    width: 1320px;
+    margin: auto;
+}
+
+
+.coming-offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.Holidays-sale-container{
+   
+    width: 1320px;
+    margin: auto;
+}
+
+
+.Holidays-sale h3{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+
+.Holidays-sale h1{
+    text-align: center;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+
+.Holidays-sale h1 span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+.Holidays-sale p{
+    text-align: center;
+}
+
+.Holiday-gift{
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.Holiday-gift .flower{
+    background-image: linear-gradient(to right, black,white,);
+    mix-blend-mode: pass through;
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+}
+
+.Holiday-gift .woman{
+    position: absolute;
+    top: 70px;
+    right: 0;
+
+}
+.Holiday-gift .fifty-percent{
+    position: absolute;
+    right: 270px;
+    top: 150px;
+}
+
+.Holiday-gift .red-karpet{
+    border-radius: 16px 0px 16px 16px;
+    position: absolute;
+    top: 500px;
+    z-index: 1;
 }
