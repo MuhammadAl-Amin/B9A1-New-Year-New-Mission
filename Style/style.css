@@ -281,9 +281,10 @@ header{
 }
 
 .subscription{
-    width: 1320px;
+    width: 1260px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    padding: 40px;
     margin: auto;
     margin-bottom: 80px;
 }
@@ -319,4 +320,30 @@ header{
     border-radius: 0px 50px 50px 0px;
     background: #ff0000;
     margin-left: -8px;
+}
+
+.footer-container{
+    background: #070211;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-heading{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    width: 75%;
+}
+
+.footer-logo{
+    text-align: center;
+}
+
+.footer{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
 }
