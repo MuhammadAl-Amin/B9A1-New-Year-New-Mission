@@ -159,6 +159,7 @@ header{
 .up-coming-offer{
     width: 1320px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 
@@ -167,6 +168,55 @@ header{
     justify-content: space-around;
     align-items: center;
     
+}
+
+.coming-offer h3{
+    color: hsl(358, 93%, 51%);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-offer h2{
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.coming-offer .circle{
+    background: url(../resources/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.circle p{
+    width: 463px;
+    height: 463px;
+    border: 15px solid #ff0000;
+    border-radius: 463px;
+    
+}
+
+.coming-offer p{
+    color: rgba(7, 2, 17, 0.60);;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-offer h1{
+    color: hsl(0, 100%, 50%);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.last-date{
+    margin: 10px;
 }
 
 
@@ -320,7 +370,6 @@ header{
 
 .footer-container{
     background: #070211;
-    width: 100%;
     margin: auto;
 }
 
