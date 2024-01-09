@@ -74,7 +74,7 @@ header{
 }
 
 .welcome-to-2024{
-    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/Vectorrr.png);
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
