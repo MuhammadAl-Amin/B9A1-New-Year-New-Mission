@@ -113,15 +113,11 @@ header{
     text-transform: uppercase;
 }
 
-.booking-time{
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 1320px;
-    height: 482px;
-    margin-left: 80px;
-    
+.booking{
+    width: 1170px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 80px;
+    margin: auto;
 }
 
 .booking-time h3{
